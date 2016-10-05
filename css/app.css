@@ -9,6 +9,7 @@ body{
     background: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    background-image: url(./img/IMG_5104.jpg);
 }
 a{
     color: #191919;
@@ -109,4 +110,12 @@ body{
 }
 .callout{
   background-color: saddlebrown;
+  height: 900dp;
+}
+.row p{
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.left img{
+  height: 300sp;
 }
