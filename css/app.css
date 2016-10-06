@@ -116,7 +116,8 @@ body{
   padding-right: 30px;
 }
 .left img{
-  height: 300sp;
+  background-size: cover;
+
 }
 #btncol{
   background-color: #555555;
@@ -131,9 +132,49 @@ body{
   margin-top: 33%;
 }
 .body{
-  background-image: url(../img/index.jpg);
+  background-image: url(../img/use.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.right span{
+  color: floralwhite;
+}
+
+.right-bottom {
+    float: right;
+    width: 700px;
+    text-align: center;
+  }
+  .le {
+      float: left;
+      width: 350px;
+      background-color: darkgray;
+      height: 80px;
+  }
+  .ri {
+      float: right;
+      width: 350px;
+      background-color: darkslategrey;
+      height: 80px;
+  }
+  .now {
+      width: 100%;
+      background-color: darkslategrey;
+      height: 80px;
+  }
+.skills img{
+  margin: 30px;
+  display: inline-block;
+}
+.skills h4{
+  color: floralwhite;
+}
+
+@media only screen and (max-width: 641px){
+    .text p {
+      margin-top: 50%;
+
+    }
 }
 
 @media only screen and (max-width: 641px){
